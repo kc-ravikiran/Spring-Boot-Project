@@ -1,16 +1,19 @@
-package com.firstspringapp.springbootfirstapp;
+package com.kiran.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
-public class SpringbootfirstAppApplication {
+public class SpringBootpracticeApplication {
 
 	public static void main(String[] args) {
-		ApplicationContext context = SpringApplication.run(SpringbootfirstAppApplication.class, args);
 
-		A obj = context.getBean(A.class);
-		obj.code();
+        ApplicationContext context = SpringApplication.run(SpringBootpracticeApplication.class);
+
+        Root obj=context.getBean(Root.class);
+
+        obj.code();
 	}
+
 }
