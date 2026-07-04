@@ -1,10 +1,10 @@
-package Com.firstspringapp.Springbootfirst_app;
+package com.kiran.java.RestAPIs;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringbootfirstAppApplicationTests {
+class ApplicationTests {
 
 	@Test
 	void contextLoads() {
